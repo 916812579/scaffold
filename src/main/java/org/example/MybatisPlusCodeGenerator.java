@@ -27,18 +27,34 @@ public class MybatisPlusCodeGenerator {
     };
 
 
-
-
+    /**
+     * 表前缀
+     */
     private static final String tablePrefix = "t_";
 
+    /**
+     * 数据路主机名或者ip
+     */
     private static final String host = "localhost";
 
+    /**
+     * 数据库端口号
+     */
     private static final int port = 3306;
 
+    /**
+     * 数据库用户名
+     */
     private static final String userName = "root";
 
+    /**
+     * 数据库密码
+     */
     private static final String password = "root";
 
+    /**
+     * 数据库名
+     */
     private static final String dbName = "test";
 
     private static final String parent = MybatisPlusCodeGenerator.class.getPackage().getName();
