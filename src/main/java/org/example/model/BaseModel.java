@@ -1,0 +1,38 @@
+package org.example.model;
+
+import com.baomidou.mybatisplus.annotation.FieldFill;
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableLogic;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+
+import java.io.Serializable;
+import java.time.LocalDateTime;
+
+@Data
+public class BaseModel implements Serializable {
+
+    @ApiModelProperty(value = "ID")
+    private Long id;
+
+    @ApiModelProperty(value = "删除标记")
+    @TableLogic
+    private boolean isDeleted;
+
+    @ApiModelProperty(value = "创建时间")
+    @TableField(fill = FieldFill.INSERT)
+    private LocalDateTime createTime;
+
+    @ApiModelProperty(value = "创建者")
+    @TableField(fill = FieldFill.INSERT)
+    private Long createBy;
+
+    @ApiModelProperty(value = "最后更新时间")
+    @TableField(fill = FieldFill.INSERT_UPDATE)
+    private LocalDateTime updateTime;
+
+    @ApiModelProperty(value = "更新者")
+    @TableField(fill = FieldFill.INSERT_UPDATE)
+    private Long updateBy;
+
+}
