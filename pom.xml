@@ -27,7 +27,7 @@
         <shiro.version>1.4.2</shiro.version>
         <thymeleaf.extras.shiro.version>2.0.0</thymeleaf.extras.shiro.version>
         <kaptcha.version>2.3.2</kaptcha.version>
-        <commons-io.version>2.6</commons-io.version>
+        <commons-io.version>2.7</commons-io.version>
         <commons-lang3.version>3.9</commons-lang3.version>
         <oshi.version>3.9.1</oshi.version>
         <easyexcel.version>2.1.6</easyexcel.version>
