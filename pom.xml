@@ -16,7 +16,7 @@
         <java.version>1.8</java.version>
         <mybatis.starter.version>2.1.1</mybatis.starter.version>
         <druid.starter.version>1.1.21</druid.starter.version>
-        <mysql.connector.version>5.1.48</mysql.connector.version>
+        <mysql.connector.version>8.0.28</mysql.connector.version>
         <mybatis.plus.start.version>3.3.0</mybatis.plus.start.version>
         <mybatis.plus.generator.version>3.3.0</mybatis.plus.generator.version>
         <velocity.version>1.7</velocity.version>
